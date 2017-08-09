@@ -1,0 +1,82 @@
+/* General Style */
+
+.rwd-hide {
+	display: none;
+}
+
+.rwd-line {
+	display: block;
+}
+
+.rwd-show {
+	display: inline;
+}
+
+@media screen and (min-width: 768px) {
+            .rwd-line, .rwd-hide { display: inline; }
+            .rwd-show { display :show; }
+        }
+
+::-moz-selection { /* Code for Firefox */
+    color:#ffffcc;
+    background:#006666;
+}
+
+/* Text Style */
+
+.text-title {
+	color: #004987;
+	font-family: Georgia, serif
+}
+
+.text-small {
+	font-size: .9em;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+/* Thumbnail */
+
+.img-responsive-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Bootstrap Overrides */
+
+.bootstrap-overrides {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6em;
+	letter-spacing: 1px;
+}
+
+.bootstrap-overrides .well {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Backgroud Color */
+.bootstrap-overrides .navbar-default {
+    background-color: #004987;
+    border-color: #004987;
+}
+
+/* Brand */
+.bootstrap-overrides .navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+.bootstrap-overrides .navbar-default .navbar-brand:hover,
+.bootstrap-overrides .navbar-default .navbar-brand:focus {
+    color: #A7A9AC;
+}
+
+/* Link */
+.bootstrap-overrides .navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.bootstrap-overrides .navbar-default .navbar-nav > li > a:hover,
+.bootstrap-overrides .navbar-default .navbar-nav > li > a:focus {
+    color: #A7A9AC;
+}
