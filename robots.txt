@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /css/
+Disallow: /img/
+
+Sitemap: http://jeraldpodair.com/sitemap.xml
